@@ -12,19 +12,25 @@
 
 Different Blockchain mechanism for,
 
+
 Citizens → Proof of Personhood
 
 Nations → Proof of Nation DAOs
 
 Companies → Proof of Company DAOs
 
+
 INTERPLANETARY ID SYSTEM → Planetary ID wallets
 
 Planet ID wallet for people → Planet Earth NFT Passports → Planetary Citizens
+
 Planet ID wallet for Nations ….. ( WORK IN PROGRESS )
+
 Planet ID wallet for Companies ……. ( WORK IN PROGRESS )
 
+
 New web browser extension & mobile app to allow People - Nations - Companies to interact w/ PLANET EARTH DAO.
+
 
 # PROBLEM
 
@@ -45,31 +51,44 @@ Anybody who has capital to do so<< can turn that capital into influence (through
 
 Blockchain is the best invention ever since the internet. (It has existed for 13 years) -->Yes
 
-But we have to move forward & fast → We don’t have time to waste → because of that I built →
+But we have to move forward & fast → We don’t have time to waste → because of that I created Planetary DAO.
+
 
 # SOLUTION
 
 Planetary DAO and its respective protocols,
 
-•Global Taxation Protocol
-•Interplanetary ID system - Global NFT Passports
-•Planetary ID wallets
+Global Taxation Protocol
 
-To create → Global Government
+Interplanetary ID system - Global NFT Passports
 
-Some core use cases of Planetary DAO - Global Governement
+Planetary ID wallets
 
-•Land registry
-•Transparent gov spending
-•Automated taxation Global Tax
-•UBI
 
-Some core use cases of Planet Earth NFT Passports
+To create → Global Government - DECENTRALIZE GOVERNMENT
 
-•Voting
-•Taxation
-•Border crossing
-•Medical records
+
+# Some core use cases of Planetary DAO - Global Governement
+
+Land registry
+
+Transparent gov spending
+
+Automated taxation Global Tax
+
+UBI
+
+
+# Some core use cases of Planet Earth NFT Passports
+
+Voting
+
+Taxation
+
+Border crossing
+
+Medical records
+
 
 (or you could get a loan, or purchase a house, etc… all you do in your Nation but worldwide)
 
@@ -82,10 +101,14 @@ Companies
 
 # Data Integrity prevent,
 
-•Fake news
-•Campaign disinformation
-•Hacking database
-•Hacking the voting software
+Fake news
+
+Campaign disinformation
+
+Hacking database
+
+Hacking the voting software
+
 
 # Appendix
 
