@@ -12,9 +12,9 @@
 
 Different Blockchain mechanism for,
 
-•Citizens → Proof of Personhood
-•Nations → Proof of Nation DAOs
-•Companies → Proof of Company DAOs
+Citizens → Proof of Personhood
+Nations → Proof of Nation DAOs
+Companies → Proof of Company DAOs
 
 INTERPLANETARY ID SYSTEM → Planetary ID wallets
 
