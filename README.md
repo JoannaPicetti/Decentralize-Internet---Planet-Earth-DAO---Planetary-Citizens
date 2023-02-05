@@ -1,9 +1,10 @@
-# Decentralize-Internet---Planet-Earth-DAO---Planetary-Citizens
+
+# Decentralize-Internet---Decentralize Government---Planetary-Citizens
 
 
 # VISION OF THE PROJECT
 
-# PLANET EARTH DAO - Global Digital Jurisdiction
+# PLANETARY DAO - Global Digital Jurisdiction
 
 8 Billion PEOPLE + NATION DAOs + Company DAOs → All in the same ledger.
 
