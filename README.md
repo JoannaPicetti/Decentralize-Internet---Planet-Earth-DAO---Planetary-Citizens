@@ -1,4 +1,4 @@
-#Decentralize-Internet---Planet-Earth-DAO---Planetary-Citizens
+# Decentralize-Internet---Planet-Earth-DAO---Planetary-Citizens
 
 
 #VISION OF THE PROJECT
