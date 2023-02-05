@@ -1,5 +1,5 @@
 
-# Decentralize-Internet---Decentralize Government---Planetary-Citizens
+# Decentralize Internet---Decentralize Government---Planetary Citizens
 
 
 # VISION OF THE PROJECT
