@@ -1,19 +1,19 @@
 # Decentralize-Internet---Planet-Earth-DAO---Planetary-Citizens
 
 
-#VISION OF THE PROJECT
+# VISION OF THE PROJECT
 
-#PLANET EARTH DAO - Global Digital Jurisdiction
+# PLANET EARTH DAO - Global Digital Jurisdiction
 
 8 Billion PEOPLE + NATION DAOs + Company DAOs → All in the same ledger.
 
-#DESCRIPTION OF THE PROJECT
+# DESCRIPTION OF THE PROJECT
 
 Different Blockchain mechanism for,
 
-•Citizens → Proof of Personhood
-•Nations → Proof of Nation DAOs
-•Companies → Proof of Company DAOs
+• Citizens → Proof of Personhood
+• Nations → Proof of Nation DAOs
+• Companies → Proof of Company DAOs
 
 INTERPLANETARY ID SYSTEM → Planetary ID wallets
 
@@ -23,7 +23,7 @@ Planet ID wallet for Companies ……. ( WORK IN PROGRESS )
 
 New web browser extension & mobile app to allow People - Nations - Companies to interact w/ PLANET EARTH DAO.
 
-#PROBLEM
+# PROBLEM
 
 Scale of Ethereum
 
@@ -44,49 +44,49 @@ Blockchain is the best invention ever since the internet. (It has existed for 13
 
 But we have to move forward & fast → We don’t have time to waste → because of that I built →
 
-#SOLUTION
+# SOLUTION
 
 Planetary DAO and its respective protocols,
 
-•Global Taxation Protocol
-•Interplanetary ID system - Global NFT Passports
-•Planetary ID wallets
+• Global Taxation Protocol
+• Interplanetary ID system - Global NFT Passports
+• Planetary ID wallets
 
 To create → Global Government
 
 Some core use cases of Planetary DAO - Global Governement
 
-•Land registry
-•Transparent gov spending
-•Automated taxation Global Tax
-•UBI
+• Land registry
+• Transparent gov spending
+• Automated taxation Global Tax
+• UBI
 
 Some core use cases of Planet Earth NFT Passports
 
-•Voting
-•Taxation
-•Border crossing
-•Medical records
+• Voting
+• Taxation
+• Border crossing
+• Medical records
 
 (or you could get a loan, or purchase a house, etc… all you do in your Nation but worldwide)
 
-#Planetary ID wallets → Digital Identity Wallets ( Decentralized Identity )
+# Planetary ID wallets → Digital Identity Wallets ( Decentralized Identity )
 
 Citizens
 Nations States
 Companies
 
 
-#Data Integrity prevent,
+# Data Integrity prevent,
 
 •Fake news
 •Campaign disinformation
 •Hacking database
 •Hacking the voting software
 
-#Appendix
+# Appendix
 
-*A digital identity wallet enables a user to establish relationships and interact with third parties in a trusted manner. It is a piece of software, which helps you to stay in control of your messaging, security, health records, privacy, purchases etc…
+* A digital identity wallet enables a user to establish relationships and interact with third parties in a trusted manner. It is a piece of software, which helps you to stay in control of your messaging, security, health records, privacy, purchases etc…
 
 “DECENTRALIZE IDENTITIES GIVES INDIVIDUALS CONTROL OVER THEIR OWN IDENTITY SO THAT THEY CAN DECIDE HOW THEIR PERSONAL INFORMATION IS SHARED AND ACCESSED, ENABLING TRUSTED INTERACTIONS WHILE PRESERVING PRIVACY. “
 
