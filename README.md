@@ -20,7 +20,7 @@ Nations → Proof of Nation DAOs
 Companies → Proof of Company DAOs
 
 
-INTERPLANETARY ID SYSTEM → Planetary ID wallets
+# INTERPLANETARY ID SYSTEM → Planetary ID wallets
 
 Planet ID wallet for people → Planet Earth NFT Passports → Planetary Citizens
 
@@ -92,11 +92,14 @@ Medical records
 
 (or you could get a loan, or purchase a house, etc… all you do in your Nation but worldwide)
 
-# Planetary ID wallets → Digital Identity Wallets ( Decentralized Identity )
+# Planetary ID wallets → Digital Identity Wallets (Decentralized Identity)
 
 Citizens
+
 Nations States
+
 Companies
+
 
 
 # Data Integrity prevent,
