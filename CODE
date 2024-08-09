@@ -1,0 +1,120 @@
+use std::collections::HashMap;
+
+#[derive(Debug)]
+struct Citizen {
+    name: String,
+    id: String, // Planet Earth NFT Passport
+}
+
+impl Citizen {
+    fn new(name: &str, id: &str) -> Self {
+        Citizen {
+            name: name.to_string(),
+            id: id.to_string(),
+        }
+    }
+}
+
+#[derive(Debug)]
+struct Nation {
+    name: String,
+    id: String, // Nation DAO ID
+}
+
+impl Nation {
+    fn new(name: &str, id: &str) -> Self {
+        Nation {
+            name: name.to_string(),
+            id: id.to_string(),
+        }
+    }
+}
+
+#[derive(Debug)]
+struct Company {
+    name: String,
+    id: String, // Company DAO ID
+}
+
+impl Company {
+    fn new(name: &str, id: &str) -> Self {
+        Company {
+            name: name.to_string(),
+            id: id.to_string(),
+        }
+    }
+}
+
+#[derive(Debug)]
+struct PlanetaryDAO {
+    citizens: HashMap<String, Citizen>,
+    nations: HashMap<String, Nation>,
+    companies: HashMap<String, Company>,
+}
+
+impl PlanetaryDAO {
+    fn new() -> Self {
+        PlanetaryDAO {
+            citizens: HashMap::new(),
+            nations: HashMap::new(),
+            companies: HashMap::new(),
+        }
+    }
+
+    fn add_citizen(&mut self, name: &str, id: &str) {
+        let citizen = Citizen::new(name, id);
+        self.citizens.insert(id.to_string(), citizen);
+    }
+
+    fn add_nation(&mut self, name: &str, id: &str) {
+        let nation = Nation::new(name, id);
+        self.nations.insert(id.to_string(), nation);
+    }
+
+    fn add_company(&mut self, name: &str, id: &str) {
+        let company = Company::new(name, id);
+        self.companies.insert(id.to_string(), company);
+    }
+
+    fn display_citizens(&self) {
+        println!("Citizens:");
+        for citizen in self.citizens.values() {
+            println!("{:?}", citizen);
+        }
+    }
+
+    fn display_nations(&self) {
+        println!("Nations:");
+        for nation in self.nations.values() {
+            println!("{:?}", nation);
+        }
+    }
+
+    fn display_companies(&self) {
+        println!("Companies:");
+        for company in self.companies.values() {
+            println!("{:?}", company);
+        }
+    }
+}
+
+fn main() {
+    let mut planetary_dao = PlanetaryDAO::new();
+
+    // Adding citizens
+    planetary_dao.add_citizen("Alice", "NFT12345");
+    planetary_dao.add_citizen("Bob", "NFT67890");
+
+    // Adding nations
+    planetary_dao.add_nation("United States", "NATION001");
+    planetary_dao.add_nation("Canada", "NATION002");
+
+    // Adding companies
+    planetary_dao.add_company("TechCorp", "COMPANY001");
+    planetary_dao.add_company("GreenEnergy", "COMPANY002");
+
+    // Displaying all entities
+    planetary_dao.display_citizens();
+    planetary_dao.display_nations();
+    planetary_dao.display_companies();
+}
