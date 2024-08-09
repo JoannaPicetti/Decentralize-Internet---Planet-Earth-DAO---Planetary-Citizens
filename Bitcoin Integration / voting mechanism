@@ -1,0 +1,79 @@
+use bitcoin::util::address::Address;
+use bitcoin::network::constants::Network;
+use bitcoin::util::key::PrivateKey;
+use bitcoin::blockdata::transaction::{Transaction, TxOut, TxIn};
+use bitcoin::consensus::encode::serialize;
+use serde::{Serialize, Deserialize};
+use std::collections::HashMap;
+
+#[derive(Debug, Serialize, Deserialize)]
+struct Vote {
+    citizen_id: String,
+    choice: String,
+}
+
+#[derive(Debug)]
+struct VotingSystem {
+    votes: HashMap<String, Vote>, // Maps citizen ID to their vote
+    total_votes: HashMap<String, u32>, // Maps choice to vote count
+}
+
+impl VotingSystem {
+    fn new() -> Self {
+        VotingSystem {
+            votes: HashMap::new(),
+            total_votes: HashMap::new(),
+        }
+    }
+
+    fn cast_vote(&mut self, citizen_id: &str, choice: &str) {
+        let vote = Vote {
+            citizen_id: citizen_id.to_string(),
+            choice: choice.to_string(),
+        };
+        self.votes.insert(citizen_id.to_string(), vote);
+        *self.total_votes.entry(choice.to_string()).or_insert(0) += 1;
+    }
+
+    fn display_results(&self) {
+        println!("Voting Results:");
+        for (choice, count) in &self.total_votes {
+            println!("{}: {} votes", choice, count);
+        }
+    }
+}
+
+fn create_transaction(address: &str, amount: f64) -> Transaction {
+    // This is a simplified example. In a real application, you would need to handle inputs, fees, etc.
+    let tx_out = TxOut {
+        value: (amount * 1_000_000_000.0) as u64, // Convert to satoshis
+        script_pubkey: Address::from_str(address).unwrap().script_pubkey(),
+    };
+
+    Transaction {
+        version: 2,
+        lock_time: 0,
+        input: vec![], // Normally you would add inputs here
+        output: vec![tx_out],
+    }
+}
+
+fn main() {
+    let mut voting_system = VotingSystem::new();
+
+    // Citizens cast their votes
+    voting_system.cast_vote("Citizen1", "OptionA");
+    voting_system.cast_vote("Citizen2", "OptionB");
+    voting_system.cast_vote("Citizen1", "OptionA"); // Citizen1 votes again (overwrites previous vote)
+
+    // Display voting results
+    voting_system.display_results();
+
+    // Create a transaction (example)
+    let address = "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa"; // Example Bitcoin address
+    let amount = 0.001; // Amount in BTC
+    let transaction = create_transaction(address, amount);
+    println!("Created Transaction: {:?}", serialize(&transaction));
+}
+
+
